@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    font-family: "Helvetica Neue";
+}
+a {
+    text-decoration: none;
+    background-color: initial;
+}
+.dangki{
+    width: 100%;
+}
+.header{
+    height: 84px;
+    
+}
+.container_logo{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 100%; 
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.logo img {
+    height:100%; 
+}
+.logo .dki{
+    width: 100px;
+    padding-left: 10px;
+}
+.logo p {
+    font-size: 1.5rem;
+}
+.header a{
+    color: #ee4d2d;
+    font-size: 14px;
+    float: right;
+    cursor: pointer;
+}
+.container_body {
+    width: 1050px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.body{
+    background: #ee4d2d;
+    height: 850px;
+    width: 100%;
+}
+.container_form {
+    width: 400px;
+    height: 720px;
+    background: white;
+    margin-top: 70px;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.14);
+    border-radius: 4px;
+}
+.dki_name {
+    font-size: 1.25rem;
+    height: 64px;
+    align-items: center;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.form_group span{
+    display: block;
+    margin-bottom: 16px;
+    /* visibility: hidden; */
+}
+.form_mess{
+    margin-top: 5px;
+    margin-left: 34px;
+    font-size: 12px;
+    
+}
+.form input {
+    padding: 0.75rem;
+    width: 300px;
+    margin-left: 30px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.form .TiepTheo{
+    width: 327.2px;
+    background: #ee4d2d;
+    color: #fff;
+    border: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 100%;
+    cursor: pointer;
+}
+.Or{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 44px;
+    margin-top: 20px;
+}
+.Or .Or_left, .Or_right {
+    height: 1px;
+    width: 100%;
+    background: #dbdbdb;
+}
+.Or .Or_text{
+    color: #dbdbdb;
+    text-transform: uppercase;
+    margin: 0 16px;
+    font-size: 12px;
+}
+.Icon {
+    display: flex;
+    align-items: center;
+}
+.Icon img{
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.Icon button{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    margin-left: 30px;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 12px;
+}
+.Icon .Icon_GG{
+    margin-left: 16px;
+    padding-left: 36px;
+    padding-right: 42px;
+}
+.DieuKhoan a{
+    color: #ee4d2d;
+}
+.DieuKhoan{
+    font-size: 12px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 34px;
+    margin-top: 26px;
+    padding: 0 30px;
+    font-weight: 60%;
+}
+.DangNhap{
+    color: rgba(0,0,0,.54);
+    text-align: center;
+    margin-top: 22px;
+}
+.DangNhap a{
+    color: #ee4d2d;
+    font-weight: 500;
+    font-size: .875rem;
+}
+.footer{
+    height: 120px;
+}
+
+.form_group.fail input{
+    border: 1px solid #ee4d2d;
+}
+.form_group.fail{
+    color: #ee4d2d;
+}
+
+
